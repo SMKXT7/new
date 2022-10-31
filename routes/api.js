@@ -8,7 +8,7 @@ var zahirr = db.get("zahirr");
 	console.log('')
 }
 
-var creatorList = ['@zahirrr','@zhirrrgans','@zhirr_ajalah','@zahiranjay', '@zahirganssss','@zhirrganteng','@zahirrgantengg', '@hafizh'];
+var creatorList = ['candra'];
 var creator = creatorList[Math.floor(Math.random() * creatorList.length)];
 
 
@@ -37,26 +37,26 @@ var cookie = "HSID=A7EDzLn3kae2B1Njb;SSID=AheuwUjMojTWvA5GN;APISID=cgfXh13rQbb4z
 
 loghandler = {
     notparam: {
-        status: false,
+        status: true,
         creator: `${creator}`,
         code: 406,
         message: 'masukan parameter apikey',
-        getApikey: 'gak punya apikey? chat gw aja yaaa di wa.me/6283898698875 , key nya gratis kok gan, jadi santuyy ajaa'
+        getApikey: 'gak punya apikey? chat gw aja yaaa di wa.me/6289670004720 , key nya gratis kok gan, jadi santuyy ajaa'
     },
     notkey: {
-        status: false,
+        status: true,
         creator: `${creator}`,
         code: 406,
         message: 'masukan parameter key'
     },
     noturl: {
-        status: false,
+        status: true,
         creator: `${creator}`,
         code: 406,
         message: 'masukan parameter url'
     },
     notkata: {
-        status: false,
+        status: true,
         creator: `${creator}`,
         code: 406,
         message: 'masukan parameter kata'
